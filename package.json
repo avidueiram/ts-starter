@@ -1,0 +1,24 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "start": "tsc && node build/index.js"
+  },
+  "keywords": [],
+  "author": "Alfredo Vidueira",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "Apache-2.0",
+  "description": "Typescript starter project",
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@typescript-eslint/eslint-plugin": "8.18.2",
+    "@typescript-eslint/parser": "8.18.2",
+    "eslint": "9.17.0",
+    "typescript": "5.7.2"
+  }
+}
