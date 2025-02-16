@@ -9,17 +9,3 @@ curl -sSL \
     https://raw.githubusercontent.com/avidueiram/ts-starter/refs/heads/master/init.sh | \
     bash -s -- project-name
 ```
-
----
-
-# project-name
-
-Project description
-
-## Usage
-
-```bash
-npm run lint
-npm run build
-npm start
-```
