@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "main": "build/index.js",
   "scripts": {
-    "lint": "eslint .",
-    "build": "tsc",
-    "start": "tsc && node build/index.js"
+    "lint": "eslint 'src/**' 'tests/**'",
+    "build:dev": "npm run set-env:dev && tsc",
+    "build:local": "npm run set-env:local && tsc",
+    "build:prod": "npm run set-env:prod && tsc",
+    "build:stg": "npm run set-env:stg && tsc",
+    "set-env:dev": "cp -f src/environments/environment.dev.ts src/environments/environment.ts",
+    "set-env:local": "cp -f src/environments/environment.local.ts src/environments/environment.ts",
+    "set-env:prod": "cp -f src/environments/environment.prod.ts src/environments/environment.ts",
+    "set-env:stg": "cp -f src/environments/environment.stg.ts src/environments/environment.ts",
+    "start:dev": "npm run build:dev && node build/index.js",
+    "start:local": "npm run build:local && LOCAL_LOGS=true node build/index.js",
+    "start:prod": "npm run build:prod && node build/index.js",
+    "start:stg": "npm run build:stg && node build/index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Alfredo Vidueira",
@@ -20,5 +31,8 @@
     "@typescript-eslint/parser": "8.18.2",
     "eslint": "9.17.0",
     "typescript": "5.7.2"
+  },
+  "dependencies": {
+    "dotenv": "16.4.7"
   }
 }
