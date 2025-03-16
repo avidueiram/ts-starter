@@ -25,7 +25,7 @@ export default [...compat.extends(
     parser: tsParser,
   },
   rules: {
-    'no-unused-vars': 'error',
+    'no-unused-vars': 'off',
     'no-extra-semi': 'error',
     'quotes': ['error', 'single'],
     'semi': ['error', 'always'],

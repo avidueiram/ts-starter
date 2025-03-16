@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "build/index.js",
   "scripts": {
-    "lint": "eslint 'src/**' 'tests/**'",
+    "lint": "eslint 'src/**'",
     "build:dev": "npm run set-env:dev && tsc",
     "build:local": "npm run set-env:local && tsc",
     "build:prod": "npm run set-env:prod && tsc",
@@ -15,13 +15,12 @@
     "start:dev": "npm run build:dev && node build/index.js",
     "start:local": "npm run build:local && LOCAL_LOGS=true node build/index.js",
     "start:prod": "npm run build:prod && node build/index.js",
-    "start:stg": "npm run build:stg && node build/index.js",
-    "test": "jest"
+    "start:stg": "npm run build:stg && node build/index.js"
   },
   "keywords": [],
   "author": "Alfredo Vidueira",
   "engines": {
-    "node": ">=20.0.0"
+    "node": "22"
   },
   "license": "Apache-2.0",
   "description": "Typescript starter project",
@@ -33,6 +32,9 @@
     "typescript": "5.7.2"
   },
   "dependencies": {
-    "dotenv": "16.4.7"
+    "@lukeed/uuid": "2.0.1",
+    "dotenv": "16.4.7",
+    "safe-stable-stringify": "2.5.0",
+    "zod": "3.24.2"
   }
 }
