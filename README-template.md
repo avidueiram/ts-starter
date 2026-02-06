@@ -5,7 +5,7 @@ Project description
 ## Usage
 
 ```bash
-npm run lint
-npm run build:{environment}
-npm start:{environment}
+bun run lint
+bun run build:{environment}
+bun start:{environment}
 ```

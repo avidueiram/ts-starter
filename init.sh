@@ -8,5 +8,5 @@ git init
 git branch -M master
 git add .
 git commit -m "feat: initial commit"
-npm i
+bun i
 echo "Project $1 initialized in $(pwd)"

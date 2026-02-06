@@ -1,16 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "lib": ["es6"],
-    "module": "commonjs",
-    "rootDir": "src",
-    "resolveJsonModule": true,
-    "allowJs": false,
-    "outDir": "build",
+    "module": "NodeNext",
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "nodenext",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "build",
+    "sourceMap": true,
     "strict": true,
-    "noImplicitAny": true,
+    "target": "es2017",
     "skipLibCheck": true
-  }
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
