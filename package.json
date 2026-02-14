@@ -25,7 +25,7 @@
     "@google-cloud/storage": "7.19.0",
     "@lukeed/uuid": "2.0.1",
     "@ngneat/falso": "8.0.2",
-    "axios": "1.13.4",
+    "axios": "1.13.5",
     "cookie-parser": "1.4.7",
     "cors": "2.8.6",
     "dotenv": "17.2.4",
