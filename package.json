@@ -21,7 +21,7 @@
   "dependencies": {
     "@date-fns/tz": "1.4.1",
     "@google-cloud/error-reporting": "3.0.5",
-    "@google-cloud/pubsub": "5.2.2",
+    "@google-cloud/pubsub": "5.3.0",
     "@google-cloud/storage": "7.19.0",
     "@lukeed/uuid": "2.0.1",
     "@ngneat/falso": "8.0.2",
@@ -37,7 +37,7 @@
     "handlebars": "4.7.8",
     "helmet": "8.1.0",
     "neverthrow": "8.2.0",
-    "puppeteer-core": "24.37.3",
+    "puppeteer-core": "24.37.5",
     "safe-stable-stringify": "2.5.0",
     "validator": "13.15.26",
     "zod": "4.3.6"
@@ -50,8 +50,8 @@
     "@types/node": "22.19.11",
     "@types/supertest": "6.0.3",
     "@types/validator": "13.15.10",
-    "@typescript-eslint/eslint-plugin": "8.55.0",
-    "@typescript-eslint/parser": "8.55.0",
+    "@typescript-eslint/eslint-plugin": "8.56.0",
+    "@typescript-eslint/parser": "8.56.0",
     "eslint": "9.39.2",
     "eslint-config-google": "0.14.0",
     "eslint-plugin-import": "2.32.0",
@@ -64,6 +64,6 @@
     "ts-node": "10.9.2",
     "tsx": "4.21.0",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.55.0"
+    "typescript-eslint": "8.56.0"
   }
 }
