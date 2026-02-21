@@ -21,7 +21,7 @@
   "dependencies": {
     "@date-fns/tz": "1.4.1",
     "@google-cloud/error-reporting": "3.0.5",
-    "@google-cloud/pubsub": "5.2.2",
+    "@google-cloud/pubsub": "5.3.0",
     "@google-cloud/storage": "7.19.0",
     "@lukeed/uuid": "2.0.1",
     "@ngneat/falso": "8.0.2",
