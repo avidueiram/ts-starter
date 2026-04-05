@@ -33,3 +33,6 @@ jobs:
 
       - name: Build local
         run: bun run build:local
+
+      - name: Start local
+        run: bun run start:local
