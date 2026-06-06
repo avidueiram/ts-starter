@@ -19,7 +19,7 @@
   "license": "Apache-2.0",
   "description": "Typescript starter project",
   "dependencies": {
-    "@date-fns/tz": "1.4.1",
+    "@date-fns/tz": "1.5.0",
     "@google-cloud/error-reporting": "3.0.5",
     "@google-cloud/pubsub": "5.3.0",
     "@google-cloud/storage": "7.19.0",
